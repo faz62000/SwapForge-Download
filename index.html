@@ -21,7 +21,7 @@
   .nav-links{display:flex;align-items:center;gap:24px}
   .nav-links a{color:var(--muted);font-size:14px;text-decoration:none;transition:color .2s}
   .nav-links a:hover{color:#fff}
-  .nav-cta{background:var(--primary);color:#fff!important;padding:8px 20px;border-radius:10px;font-weight:600!important}
+  .nav-cta{background:var(--primary);color:#fff!important;padding:8px 20px;border-radius:10px;font-weight:600!important;display:none}
 
   /* HERO */
   .hero{padding:120px 20px 80px;text-align:center;position:relative;overflow:hidden}
@@ -135,6 +135,7 @@
     .step-arrow{transform:rotate(90deg)}
     .security{flex-direction:column;text-align:center;padding:24px}
     .nav-links{display:none}
+    .nav-cta{display:inline-block}
     .alt-downloads{flex-direction:column}
   }
 </style>
@@ -146,12 +147,12 @@
     <div class="nav-icon">🔀</div>
     SwapForge
   </a>
-  <div class="nav-links">
+<div class="nav-links">
     <a href="#features">Özellikler</a>
     <a href="#pricing">Fiyatlar</a>
     <a href="#faq">SSS</a>
-    <a href="#download" class="nav-cta">İndir</a>
   </div>
+  <a href="#download" class="nav-cta">İndir</a>
 </nav>
 
 <!-- HERO -->
